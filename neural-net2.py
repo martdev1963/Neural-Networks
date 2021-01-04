@@ -74,10 +74,3 @@ for i in range(5):
 	plt.xlabel("Actual: " + class_names[test_labels[i]])
 	plt.title("Prediction " + class_names[np.argmax(prediction[0])])
 	plt.show()
-
-
-
-
-# NEXT VIDEO TO FOLLOW: TECH WITH TIM
-# Python Neural Networks - Tensorflow 2.0 Tutorial - Text Classification P1
-# https://www.youtube.com/watch?v=k-_pWoy2fb4
