@@ -3,15 +3,15 @@ from tensorflow import keras
 import numpy as np
 import matplotlib.pyplot as plt 
 
-"""---------------------------------------------------------------------------------
-							NEURAL NETWORKS PROGRAM
+"""-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+								NEURAL NETWORKS PROGRAM
 https://www.techwithtim.net/tutorials/python-neural-networks/loading-data/
----------------------------------------------------------------------------------"""
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------"""
 
 # dataset
 data = keras.datasets.fashion_mnist
 
-# training and testing data
+# training and testing dat
 (train_images, train_labels), (test_images, test_labels) = data.load_data()
 
 # there are ten labels for this specific dataset... between 0 and 9
